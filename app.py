@@ -67,5 +67,21 @@ def delete_incident(id):
     db.session.commit()
     return jsonify({"message": f"Incident {id} deleted."}), 200
 
+
+@app.route('/')
+def home():
+    return """
+    <h2>Welcome to AI Incident Log API 👋</h2>
+    <p>This backend is running successfully.</p>
+    <p>Please use Postman to interact with the API:</p>
+    <ul>
+        <li>GET /incidents</li>
+        <li>POST /incidents</li>
+        <li>GET /incidents/&lt;id&gt;</li>
+        <li>DELETE /incidents/&lt;id&gt;</li>
+    </ul>
+    <p>Happy Testing! 🚀</p>
+    """
+
 if __name__ == '__main__':
     app.run(debug=True)
