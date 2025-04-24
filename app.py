@@ -71,17 +71,60 @@ def delete_incident(id):
 @app.route('/')
 def home():
     return """
-    <h2>Welcome to AI Incident Log API 👋</h2>
-    <p>This backend is running successfully.</p>
-    <p>Please use Postman to interact with the API:</p>
-    <ul>
-        <li>GET /incidents</li>
-        <li>POST /incidents</li>
-        <li>GET /incidents/&lt;id&gt;</li>
-        <li>DELETE /incidents/&lt;id&gt;</li>
-    </ul>
-    <p>Happy Testing! 🚀</p>
+    <html>
+        <head>
+            <title>AI Safety Incident Log API</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f4f4f4;
+                    color: #333;
+                    padding: 40px;
+                    text-align: center;
+                }
+                .container {
+                    background-color: white;
+                    padding: 30px;
+                    border-radius: 12px;
+                    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+                    max-width: 600px;
+                    margin: auto;
+                }
+                h1 {
+                    color: #4CAF50;
+                }
+                ul {
+                    text-align: left;
+                    margin-top: 20px;
+                }
+                li {
+                    margin: 10px 0;
+                }
+                code {
+                    background-color: #eee;
+                    padding: 2px 4px;
+                    border-radius: 4px;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>👋 Welcome to AI Incident Log API</h1>
+                <p>This Flask backend is up and running successfully.</p>
+                <p>Use <strong>Postman</strong> to send requests to the following endpoints:</p>
+                <ul>
+                    <li><code>GET /incidents</code> – View all incidents</li>
+                    <li><code>POST /incidents</code> – Add a new incident</li>
+                    <li><code>GET /incidents/&lt;id&gt;</code> – Get incident by ID</li>
+                    <li><code>DELETE /incidents/&lt;id&gt;</code> – Delete incident by ID</li>
+                </ul>
+                <p>📬 Don't forget to send JSON data while creating an incident.</p>
+                <p style="margin-top: 30px;">🚀 Happy Testing!</p>
+            </div>
+        </body>
+    </html>
     """
+
 
 if __name__ == '__main__':
     app.run(debug=True)
