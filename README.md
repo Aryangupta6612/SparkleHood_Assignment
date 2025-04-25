@@ -1,6 +1,4 @@
-Absolutely! Here's the complete `README.md` content in one place, ready to copy and paste:
 
----
 
 ```markdown
 # HumanChain AI Safety Incident Log API
@@ -11,7 +9,7 @@ A simple and lightweight Flask-based REST API for logging and managing AI safety
 
 ## 📁 Project Structure
 
-```
+```bash
 incident-log-api/
 ├── app.py              # Main Flask application
 ├── db_init.py          # Script to initialize database with sample data
