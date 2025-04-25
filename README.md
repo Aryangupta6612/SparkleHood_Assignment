@@ -25,7 +25,7 @@ git clone https://github.com/Aryangupta6612/SparkleHood_Assignment.git
 ```
 
 ```bash
-cd incident-log-api
+cd SparkleHood_Assignment
 ```
 
 ### 2. Create and Activate Virtual Environment
