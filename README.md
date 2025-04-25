@@ -95,5 +95,5 @@ Once running, the API will be accessible at:
 
 For any queries regarding the setup or project, feel free to reach out:
 
-📧 Email: aryangupta.engineer@gmail.com
-🌐 GitHub: https://github.com/your-username
+📧 Email: aryan.25022004@gmail.com
+🌐 GitHub: https://github.com/Aryangupta6612
