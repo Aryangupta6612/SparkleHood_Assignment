@@ -21,7 +21,7 @@ A simple and clean RESTful API built using **Python (Flask)** and **SQLite** to 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Aryangupta6612/SparkleHood_Assignment.git
+git  https://github.com/Aryangupta6612/SparkleHood_Assignment.git
 ```
 
 ```bash
