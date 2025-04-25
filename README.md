@@ -22,6 +22,9 @@ A simple and clean RESTful API built using **Python (Flask)** and **SQLite** to 
 
 ```bash
 git clone https://github.com/Aryangupta6612/SparkleHood_Assignment.git 
+```
+
+```bash
 cd incident-log-api
 ```
 
