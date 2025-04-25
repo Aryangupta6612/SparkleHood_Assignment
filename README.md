@@ -10,7 +10,7 @@ A simple and lightweight Flask-based REST API for logging and managing AI safety
 ## 📁 Project Structure
 
 ```bash
-incident-log-api/
+SparkleHood_Assignment/
 ├── app.py              # Main Flask application
 ├── db_init.py          # Script to initialize database with sample data
 ├── models.py           # SQLAlchemy models
