@@ -1,6 +1,4 @@
-Sure Aryan! Here's your **complete and professional `README.md` file** all in one go:
 
----
 
 ```markdown
 # 🛡️ AI Safety Incident Log API
@@ -23,7 +21,7 @@ A simple and clean RESTful API built using **Python (Flask)** and **SQLite** to 
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/Aryangupta6612/SparkleHood_Assignment.git>
 cd incident-log-api
 ```
 
@@ -182,7 +180,7 @@ curl -X POST http://localhost:5000/incidents \
 
 **Aryan Gupta**  
 B.Tech (Data Science), Lovely Professional University  
-Backend + Data Science Enthusiast | GitHub: [your-github-username]
+Backend + Data Science Enthusiast | GitHub: [Aryangupta6612]
 
 ---
 
@@ -198,8 +196,3 @@ python app.py
 ```
 
 > Built with ❤️ for HumanChain’s AI safety mission.
-```
-
----
-
-Let me know if you want this in `.md` or `.pdf` format or want me to push it to GitHub for you!
