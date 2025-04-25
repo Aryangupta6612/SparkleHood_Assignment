@@ -82,8 +82,6 @@ Once running, the API will be accessible at:
 
 ## 📬 API Endpoints (Optional)
 
-> Add this section if you want to describe endpoints. Otherwise, feel free to remove it.
-
 - `GET /incidents` – List all incidents  
 - `POST /incidents` – Create a new incident  
 - `GET /incidents/<id>` – Get details of a specific incident  
